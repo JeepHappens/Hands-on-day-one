@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>Gradebook</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+   <!-- Bootstrap and Font-->
+   
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+   integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+   <link href="https://fonts.googleapis.com/css?family=Lobster:700" rel="stylesheet" type="text/css">
+      
+  </head>
+  
+  -->
+  
+  <!--Portfolio Page-->
+  
+  <body class="text-center">  
+  
+  <header class="container-fluid">
+    <div class="row">
+      <h1 class="col-sm-4 center-block"><em>Gradebook</em></h1>
+    </div>
+  </header>
+	  
+	  <section>
+	    <header>
+          <h2>Grade Input</h2>
+        </header>
+    	  <span>
+            
+			
+			 <form id="form">
+
+            <h1><b>Enter your Grades</b></h1>
+        <hr size="5"/>
+        <br>
+
+            <label for="g1">1</label> <input id="g1" type="text" size="3" /> 
+        <br>
+             <label for="g2">2</label> <input id="g2" type="text" size="3" /> 
+        <br>
+             <label for="g3">3</label> <input id="g3" type="text" size="3" /> 
+        <br>
+             <label for="g4">4</label> <input id="g4" type="text" size="3" /> 
+        <br>
+             <label for="g5">5</label> <input id="g5" type="text" size="3" /> 
+        <br>
+             <label for="g6">6</label> <input id="g6" type="text" size="3" /> 
+        <br>
+             <label for="g7">7</label> <input id="g7" type="text" size="3" /> 
+        <br>
+             <label for="g8">8</label> <input id="g8" type="text" size="3" /> 
+        <br>
+             <label for="g9">9</label> <input id="g9" type="text" size="3" /> 
+        <br>
+             <label for="g10">10</label> <input id="g10" type="text" size="3" /> 
+        <br>
+
+           
+        <br>
+
+            <input type="button" value="Show Grades" onclick="grades();">
+            <input type="button" value="Find Average" onclick="gradesAvg();"> <br>
+
+            <h2><b>Grades:</b></h2>
+              <p id="number1"></p><br>
+              <p id="number2"></p><br>
+              <p id="number3"></p><br>
+              <p id="number4"></p><br>
+              <p id="number5"></p><br>
+              <p id="number6"></p><br>
+              <p id="number7"></p><br>
+              <p id="number8"></p><br>
+              <p id="number9"></p><br>
+              <p id="number10"></p><br>
+              <p id="Grade Average"></p>
+              
+        <hr size="5">
+        </form>
+			
+			
+			
+			
+			
+		  
+		  <p id="printArea"></p>
+		  
+		  </span>
+	  </section>
+	
+	
+	
+	<script src="script.js"></script>
+	
+  </body>
+</html>
